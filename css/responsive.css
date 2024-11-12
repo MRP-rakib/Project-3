@@ -1,0 +1,583 @@
+
+@media (max-width:1200px) {
+    .nav_bar {
+        max-width: 1170px;
+    }
+    .instagram_container{
+        gap: 50px;
+        align-items: center;
+    }
+    .instagram_item{
+        gap: 30px;
+    }
+    .image3{
+        display: none;
+    }
+    .image5{
+        display: none;
+    }
+
+    .banner_container {
+        max-width: 1170px;
+    }
+    .insta_work_text {
+        max-width: 100%;
+    }
+    
+    .insta_work_item {
+        flex-wrap: wrap;
+    }
+    
+    .insta_work_item1 {
+        max-width: calc(33.33% - 24px);
+    }
+    /* section insta work end */
+     /* section insta work end */
+ #video{
+    display: block;
+    padding: 50px 0;
+     }
+     .video_image img{
+        max-width: 100%;
+     }
+     .play_btn{
+        display: none;
+     }
+/* section video end */
+    .frame_img{
+        right: 0;
+    }
+    .customer_rating_card{
+        flex-wrap: wrap;
+    }
+    .customer_rating_item{
+        max-width: calc(100%);
+    }
+   
+}
+
+@media (max-width: 992px) {
+
+    /* header start */
+    .nav_bar {
+        max-width: 100%;
+        padding: 10px 10px 0 10px;
+
+    }
+
+    .nav_bar .logo svg {
+        max-width: 100px;
+
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .button .btn {
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+
+    .toggle_bar {
+        display: block;
+    }
+
+    .toggle_bar button {
+        padding: 8px 10px;
+        border: 1px solid red;
+        background: transparent;
+        color: #E90024;
+        font-size: 16ox;
+    }
+
+    /* header end */
+    /* section banner start */
+    .banner_container {
+        max-width: 100%;
+        flex-direction: column;
+        padding: 10px 10px 0 10px;
+    }
+
+    .banner_contaienr_text {
+        max-width: 100%;
+        padding: 30px 0;
+    }
+
+    .banner_contaienr_text p {
+        max-width: 100%;
+    }
+
+    .banner_contaienr_text h1 {
+        font-size: 55px;
+        line-height: 50px;
+    }
+
+    .get_btn .btn {
+        padding: 8px 10px;
+        font-size: 16px;
+
+    }
+
+    .banner_container_image {
+        display: none;
+
+    }
+
+    /* section banner end */
+    /* section instagram start */
+    #instagram {
+        padding-top: 50px;
+    }
+
+    .instagram_container {
+        max-width: 100%;
+        /* flex-direction: column; */
+        align-items: center;
+        gap: 50px;
+    }
+
+    .dots_image {
+        display: none;
+    }
+
+    .instagram_like {
+        padding: 0;
+        text-align: center;
+
+    }
+
+    .instagram_item {
+        
+        padding: 0;
+        gap: 30px;
+    }
+    
+/* section instagram end */
+ /* section insta work start */
+ .insta_work_text {
+    max-width: 100%;
+}
+
+.insta_work_item {
+    flex-wrap: wrap;
+}
+
+.insta_work_item1 {
+    max-width: calc(50% - 24px);
+}
+/* section insta work end */
+ /* section insta work end */
+ #video{
+    display: block;
+    padding: 50px 0;
+     }
+     .video_image img{
+        max-width: 100%;
+     }
+     .play_btn{
+        display: none;
+     }
+/* section video end */
+/* section pump insta start */
+.pump_insta_text{
+    max-width: 100%;
+}
+.pump_insta_card{
+    flex-wrap: wrap;
+}
+.pump_insta_item{
+    max-width: calc(50% - 24px);
+}
+.frame_img{
+    right: 0;
+}
+/* section pump insta end */
+/* section how insta start */
+.how_pump_card{
+    flex-wrap: wrap;
+
+}
+.how_pump_item{
+    max-width: calc(50% - 24px);
+   
+}
+.purchase{
+   padding-left: 90px;
+}
+
+/* section how insta end */
+/* section customer rating start */
+.customer_rating_card{
+    flex-wrap: wrap;
+}
+.customer_rating_item{
+    max-width: calc(50% - 24px);
+}
+
+/* section customer rating end */
+}
+
+@media (max-width:768px) {
+
+    /* header start */
+    .nav_bar {
+        max-width: 100%;
+        padding: 10px 10px 0 10px;
+
+    }
+
+    .nav_bar .logo svg {
+        max-width: 100px;
+
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .button .btn {
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+
+    .toggle_bar {
+        display: block;
+    }
+
+    .toggle_bar button {
+        padding: 8px 10px;
+        border: 1px solid red;
+        background: transparent;
+        color: #E90024;
+        font-size: 16ox;
+    }
+
+    /* header end */
+    /* section banner start */
+    .banner_container {
+        max-width: 100%;
+        flex-direction: column;
+        padding: 10px 10px 0 10px;
+    }
+
+    .banner_contaienr_text {
+        max-width: 100%;
+        padding: 30px 0;
+    }
+
+    .banner_contaienr_text p {
+        max-width: 100%;
+    }
+
+    .banner_contaienr_text h1 {
+        font-size: 55px;
+        line-height: 50px;
+    }
+
+    .get_btn .btn {
+        padding: 8px 10px;
+        font-size: 16px;
+
+    }
+
+    .banner_container_image {
+        display: none;
+
+    }
+
+    /* section banner end */
+    /* section instagram start */
+    #instagram {
+        padding: 50px;
+    }
+
+    .instagram_container {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .dots_image {
+        display: none;
+    }
+
+    .instagram_like {
+        padding: 0;
+        text-align: center;
+
+    }
+
+    .instagram_item {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    /* section instagram end */
+    /* section insta work start */
+    .insta_work_text {
+        max-width: 100%;
+    }
+
+    .insta_work_item {
+        flex-wrap: wrap;
+    }
+
+    .insta_work_item1 {
+        max-width: calc(50% - 24px);
+    }
+ /* section insta work end */
+ #video{
+    display: block;
+    padding: 50px 0;
+     }
+     .video_image img{
+        max-width: 100%;
+     }
+     .play_btn{
+        display: none;
+     }
+/* section video end */
+ /* section pump insta start */
+ .pump_insta_text{
+    max-width: 100%;
+}
+.pump_insta_card{
+    flex-wrap: wrap;
+}
+.pump_insta_item{
+    max-width: calc(50% - 24px);
+}
+.frame_img{
+    right: 0;
+}
+/* section pump insta end */
+/* section how insta start */
+.how_pump_card{
+    flex-wrap: wrap;
+
+}
+.how_pump_item{
+    max-width: calc(50% - 24px);
+   
+}
+.purchase{
+   padding-left: 90px;
+}
+.save_btn {
+    padding-left: 50px;
+  
+}
+/* section how insta end */
+/* section customer rating start */
+.customer_rating_card{
+    flex-wrap: wrap;
+}
+.customer_rating_item{
+    max-width: calc(100%);
+}
+
+/* section customer rating end */
+/* section everything start */
+.everything_text_item{
+    flex-direction: column;
+     }
+     .everything_text_item1{
+         max-width: 100%;
+     }
+     .everything_text_item2{
+         max-width: 100%;
+     }
+ /* section everything end */
+  /* footer start */
+  .footer_container{
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+/* footer end */
+
+}
+
+@media (max-width:576px) {
+
+    /* header start */
+    .nav_bar {
+        max-width: 100%;
+        padding: 10px 10px 0 10px;
+
+    }
+
+    .nav_bar .logo svg {
+        max-width: 100px;
+
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .button .btn {
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+
+    .toggle_bar {
+        display: block;
+    }
+
+    .toggle_bar button {
+        padding: 8px 10px;
+        border: 1px solid red;
+        background: transparent;
+        color: #E90024;
+        font-size: 16ox;
+    }
+
+    /* header end */
+    /* section banner start */
+    .banner_container {
+        max-width: 100%;
+        flex-direction: column;
+        padding: 10px 10px 0 10px;
+    }
+
+    .banner_contaienr_text {
+        max-width: 100%;
+        padding: 30px 0;
+    }
+
+    .banner_contaienr_text p {
+        max-width: 100%;
+    }
+
+    .banner_contaienr_text h1 {
+        font-size: 55px;
+        line-height: 50px;
+    }
+
+    .get_btn .btn {
+        padding: 8px 10px;
+        font-size: 16px;
+
+    }
+
+    .banner_container_image {
+        display: none;
+
+    }
+
+    /* section banner end */
+    /* section instagram start */
+    #instagram {
+        padding: 50px;
+    }
+
+    .instagram_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dots_image {
+        display: none;
+    }
+
+    .instagram_like {
+        padding: 0;
+        text-align: center;
+
+    }
+
+    .instagram_item {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    /* section instagram end */
+    /* section insta work start */
+    .insta_work_text {
+        max-width: 100%;
+    }
+
+    .insta_work_text p {
+        max-width: 100%;
+        font-size: 12px;
+    }
+
+    .insta_work_item {
+        flex-wrap: wrap;
+    }
+
+    .insta_work_item1 {
+        max-width: 100%;
+    }
+
+    /* section insta work end */
+    #video{
+    display: block;
+    padding: 50px 0;
+     }
+     .video_image img{
+        max-width: 100%;
+     }
+     .play_btn{
+        display: none;
+     }
+    /* section video end */
+    /* section pump insta start */
+    .pump_insta_text{
+        max-width: 100%;
+    }
+    .pump_insta_card{
+        flex-wrap: wrap;
+    }
+    .pump_insta_item{
+        max-width: 100%;
+    }
+    .frame_img{
+        right: 0;
+    }
+    /* section pump insta end */
+    /* section how insta start */
+    .how_pump_card{
+        flex-wrap: wrap;
+    
+    }
+    .how_pump_item{
+        max-width: 100%;
+       
+    }
+    .purchase{
+       padding-left: 90px;
+    }
+    /* section how insta end */
+    /* section customer rating start */
+    .customer_rating_card{
+        flex-wrap: wrap;
+    }
+    .customer_rating_item{
+        max-width: 100%;
+    }
+   
+    /* section customer rating end */
+    /* section everything start */
+    .everything_text_item{
+       flex-direction: column;
+        }
+       
+        .everything_text_item1{
+            max-width: 100%;
+        }
+        .everything_text_item2{
+            max-width: 100%;
+        }
+    /* section everything end */
+    /* footer start */
+    .footer_container{
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+    }
+    /* footer end */
+
+}
